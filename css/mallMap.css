@@ -1,0 +1,94 @@
+body {
+    background-color: tan;
+    font-family: Verdana, sans-serif;
+}
+
+#page {
+    margin: auto;
+    width: 470px;
+}
+
+#mallMap {
+    width: 470px;
+    height: 630px;
+    background-image: url("../images/mallmap.jpg");
+    position: relative;
+}
+
+#mallMap a.dot {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url("../images/lightbar.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    position: absolute;
+}
+
+#mallMap a.dot:hover {
+    background-position: 0px -25px;
+}
+
+#mallMap a.dot.selected {
+    background-position: 0px -50px;
+}
+
+#mallMap div.description {
+    width: 210px;
+    position: absolute;
+    top: 27px;
+    right: 20px;
+    
+    height: 130px;
+    overflow: hidden;
+    display: none;
+}
+
+#mallMap div.description h4 {
+    margin: 0px 0px 5px 0px;
+}
+
+#mallMap div.description img {
+    float: right;
+    margin-left: 5px;
+    background-color: blue;
+}
+
+#mallMap div.description p {
+    font-size: 11px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#storeChoice {
+    position: absolute;
+    bottom: 20px;
+    left: 220px;
+}
+
+#storeChoice h5 {
+    margin: 0px 5px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
